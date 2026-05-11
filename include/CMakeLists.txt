@@ -1,4 +1,5 @@
 add_library(raylib_cpp INTERFACE)
+set_property(TARGET raylib_cpp PROPERTY CXX_STANDARD 11)
 
 set(RAYLIB_CPP_HEADERS
     ${CMAKE_CURRENT_SOURCE_DIR}/AudioDevice.hpp
